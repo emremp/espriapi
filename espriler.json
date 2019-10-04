@@ -8,5 +8,45 @@
         "id": 2,
         "soru": "Viyana kuşatması neden başarısız olmuş?",
         "cevap": "Çünkü kuş bitmiş!"
+    },
+    {
+        "id": 3,
+        "soru": "En şanslı C hangisidir?",
+        "cevap": ":facepalm"
+    },
+    {
+        "id": 4,
+        "soru": "Adamın biri şoka girmiş!",
+        "cevap": "Diğeri de migrosa."
+    },
+    {
+        "id": 5,
+        "soru": "Kapı çalmış kim gelmiş?",
+        "cevap": "Kim Basinger"
+    },
+    {
+        "id": 6,
+        "soru": "Sizin buzdolabı boş mu?",
+        "cevap": "Hayır bizimki frigi daire."
+    },
+    {
+        "id": 7,
+        "soru": "At düşünce nolmuş?",
+        "cevap": "Sakatat ;("
+    },
+    {
+        "id": 8,
+        "soru": "1000^m.kök(ld).kök(l)",
+        "cevap": "..."
+    },
+    {
+        "id": 9,
+        "soru": "i run each teen me?",
+        "cevap": "i run each teem."
+    },
+    {
+        "id": 10,
+        "soru": "Mars'ta açılan restoranı gördün mü?",
+        "cevap": "Herşey güzel ama atmosfer pek yok."
     }
 ]
