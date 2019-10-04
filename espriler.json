@@ -36,17 +36,17 @@
     },
     {
         "id": 8,
-        "soru": "1000^m.kök(ld).kök(l)",
+        "soru": "1000 üstü m kök l d kök l",
         "cevap": "..."
     },
     {
         "id": 9,
         "soru": "i run each teen me?",
-        "cevap": "i run each teem."
+        "cevap": "i run each team."
     },
     {
         "id": 10,
-        "soru": "Mars'ta açılan restoranı gördün mü?",
+        "soru": "Tesla Mars'ta restoran açmış?",
         "cevap": "Herşey güzel ama atmosfer pek yok."
     }
 ]

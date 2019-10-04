@@ -30,26 +30,17 @@ namespace espriapi.guldur
 
             if (method != null && method == "guldur")
             {
-                using (FileStream fs = File.OpenRead(context.FunctionAppDirectory + "/espriler.json"))
-                {
-                    byte[] b = new byte[1024];
-                    UTF8Encoding temp = new UTF8Encoding(true);
-                    while (fs.Read(b, 0, b.Length) > 0)
-                    {
-                        var esprilerData = JsonConvert.DeserializeObject<List<Joke>>(temp.GetString(b));
-                        var rndCount = new Random();
-                        var rndIndex = rndCount.Next(0, esprilerData.Count);
-                        return (ActionResult)new JsonResult(esprilerData[rndIndex]);
-                    }
-                }
-
-            }else
+                var esprilerData = JsonConvert.DeserializeObject<List<Joke>>(File.ReadAllText(context.FunctionAppDirectory + "/espriler.json"));
+                var rndCount = new Random();
+                var rndIndex = rndCount.Next(0, esprilerData.Count);
+                return (ActionResult)new JsonResult(esprilerData[rndIndex]);
+            }
+            else
             {
                 return new BadRequestObjectResult("method parametresini guldur olarak doldurun");
             }
 
-            return new BadRequestObjectResult("Kim bilir ne hatası");
-            
+
         }
     }
 }
