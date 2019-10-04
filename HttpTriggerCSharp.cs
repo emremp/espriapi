@@ -18,7 +18,7 @@ namespace espriapi.guldur
         [FunctionName("HttpTriggerCSharp")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
-            ILogger log)
+            ILogger log, ExecutionContext context)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
@@ -30,7 +30,7 @@ namespace espriapi.guldur
 
             if (method != null && method == "guldur")
             {
-                using (FileStream fs = File.OpenRead("espriler.json"))
+                using (FileStream fs = File.OpenRead(context.FunctionAppDirectory + "/espriler.json"))
                 {
                     byte[] b = new byte[1024];
                     UTF8Encoding temp = new UTF8Encoding(true);
