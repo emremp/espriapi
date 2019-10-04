@@ -4,6 +4,6 @@
 
 Yukarıdaki gibi bir apimiz neden yok diye düşünüp aşağıdaki endpointi azure function kullanarak hazırladım.
 
-<https://espriapi.azurewebsites.net/api/HttpTriggerCSharp?method=guldur>
+<http://espriapi.azurewebsites.net/api/HttpTriggerCSharp?method=guldur>
 
 Pull request yaparsanız daha da iğrenç bir apimiz olabilir.
