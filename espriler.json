@@ -48,5 +48,10 @@
         "id": 10,
         "soru": "Tesla Mars'ta restoran açmış?",
         "cevap": "Herşey güzel ama atmosfer pek yok."
+    },
+    {
+        "id": 11,
+        "soru": "Neden Fransızlar?",
+        "cevap": "Bilmem ama ben sızlamam."
     }
 ]
