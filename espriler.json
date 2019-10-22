@@ -53,5 +53,10 @@
         "id": 11,
         "soru": "Neden Fransızlar?",
         "cevap": "Bilmem ama ben sızlamam."
+    },
+    {
+        "id": 12,
+        "soru": "IOS Developer hangi marka arabaya biner?",
+        "cevap": "Suzuki swift"
     }
 ]
