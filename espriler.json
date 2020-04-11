@@ -78,5 +78,50 @@
         "id": 16,
         "soru": "Yangın dolabını açarsan nolur?",
         "cevap": "Yang gelir kapatır."
+    },
+    {
+        "id": 17,
+        "soru": "Sen kamyonu al.",
+        "cevap": "Leonardo da vinci."
+    },
+    {
+        "id": 18,
+        "soru": "Basamakta durmayın otomatik kapı çarpar.",
+        "cevap": "Böler, karekökünü alır."
+    },
+    {
+        "id": 19,
+        "soru": "Bill Gates neden grip olmuş?",
+        "cevap": "Windows açık kalmış da ondan…"
+    },
+    {
+        "id": 20,
+        "soru": "Volkswagen Passat",
+        "cevap": "Bencil oynama."
+    },
+    {
+        "id": 21,
+        "soru": "Adamın biri fakirmiş.",
+        "cevap": "Karısı braun."
+    },
+    {
+        "id": 22,
+        "soru": "Çekyata niye çekyat denir?",
+        "cevap": "Çünkü itotur diyemeyiz."
+    },
+    {
+        "id": 23,
+        "soru": "Pişmemiş burgere ne denir?",
+        "cevap": "Hamburger."
+    },
+    {
+        "id": 24,
+        "soru": "Terazi ile diş macunu arasındaki fark nedir?",
+        "cevap": "Biri tartar öbürü anti tartar."
+    },
+    {
+        "id": 25,
+        "soru": "En çok eşek yavrusu nerede olur?",
+        "cevap": "Spa merkezinde."
     }
 ]
