@@ -52,11 +52,31 @@
     {
         "id": 11,
         "soru": "Neden Fransızlar?",
-        "cevap": "Bilmem ama ben sızlamam."
+        "cevap": "Fran'ı bilmem ama ben sızlamam."
     },
     {
         "id": 12,
         "soru": "IOS Developer hangi marka arabaya biner?",
         "cevap": "Suzuki swift"
+    },
+    {
+        "id": 13,
+        "soru": "Ayda 5 milyon kazanma ister misin?",
+        "cevap": "Evet. O zaman Ay’a git."
+    },
+    {
+        "id": 14,
+        "soru": "Uzun lafın kısası",
+        "cevap": "U.L."
+    },
+    {
+        "id": 15,
+        "soru": "Seven unutmaz oğlum.",
+        "cevap": "Eight unutur."
+    },
+    {
+        "id": 16,
+        "soru": "Yangın dolabını açarsan nolur?",
+        "cevap": "Yang gelir kapatır."
     }
 ]
