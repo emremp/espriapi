@@ -7,3 +7,5 @@ Yukarıdaki gibi bir apimiz neden yok diye düşünüp aşağıdaki endpointi az
 <http://espriapi.azurewebsites.net/api/HttpTriggerCSharp?method=guldur>
 
 Pull request yaparsanız daha da iğrenç bir apimiz olabilir.
+
+https://medium.com/@emremp/rastgele-espri-yapan-telegram-botu-1-969e2161e0bb
